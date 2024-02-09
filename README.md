@@ -23,14 +23,16 @@ Add `eslint-plugin-react-extras` to the plugins section of your `.eslintrc` conf
   "plugins": ["react-extras"],
   "parser": "@typescript-eslint/parser",
   "rules": {
-    "react-extras/rule-name": "error"
+    "react-extras/ban-props-with-children": "error"
   }
 }
 ```
 
 ## Rules
 
-`disallow-React-componentWithProps`
+### ban-props-with-children
+
+Disallow using `React.ComponentWithProps` with arguments.
 
 Examples
 🚫 Example of incorrect code for this rule:
