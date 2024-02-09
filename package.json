@@ -1,9 +1,13 @@
 {
   "name": "eslint-plugin-react-extras",
-  "description": "This plugin add extra rules for React and Typescript",
-  "version": "1.0.1",
+  "description": "Adds extra rules for React and Typescript",
+  "version": "1.0.2",
   "main": "./index.js",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/ASafaeirad/eslint-plugin-react-extras.git",
+    "type": "git"
+  },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">=5",
     "@typescript-eslint/parser": ">=5",
